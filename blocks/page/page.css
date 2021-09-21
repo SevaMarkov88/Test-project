@@ -1,3 +1,9 @@
 .page {
-   font-family: Arial, Helvetica, sans-serif;
+    max-width: 1377px;
+    min-height: 370px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/* Размер для всего контента */
