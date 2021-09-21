@@ -4,8 +4,15 @@
 /* fonts */
 @import url(../fonts/fonts.css);
 
+
+
+/* page */
+@import url(../blocks/page/page.css);
+
 /* header */
 
 /* main */
 
 /* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__text/footer__text.css);
