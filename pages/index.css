@@ -13,6 +13,11 @@
 
 /* main */
 
+/* video */
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
+@import url(../blocks/video/__title/video__title.css);
+
 /* footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__text/footer__text.css);
