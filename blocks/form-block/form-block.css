@@ -1,0 +1,14 @@
+.form-block {
+  max-width: 1377px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .form-block {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}

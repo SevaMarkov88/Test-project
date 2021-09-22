@@ -14,12 +14,28 @@
 <body class="page">
    <header class="header"></header>
    <main class="main">
-      <div class="video">
+
+      <section class="form-block">
+         <div class="form-block__left">
+            <h2 class="form-block__title">Так куда же я поеду?</h2>
+         <form action="" method="GET" class="form-block__form form">
+               <input type="text" placeholder="Я поеду ..." class="form__text">
+               <textarea placeholder="Потому что я ..." class="form__textarea"></textarea>
+               <button class="form__button">Поехали уже куда-нибудь!</button>
+         </form>
+         </div>
+         <div class="form-block__right">
+            <img src="images/airport-schedule.jpg" alt="Список рейсов в аэропорту" class="form-block__image">
+         </div>
+      </section>
+
+      <section class="video">
          <h3 class="video__title">А пока что - всё ещё сидим дома!</h3>
          <video src="video/Хадн дадн — Мы сегодня дома.mp4" poster="images/video.jpg" class="video__iframe" controls>
             Тут должно быть классное видео но ваш браузер его не поддерживает :(
          </video>
-      </div>
+      </section>
+
    </main>
 
    <footer class="footer">
