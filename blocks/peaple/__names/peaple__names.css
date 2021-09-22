@@ -1,0 +1,6 @@
+.peaple__names {
+    max-width: 1220px;
+    margin: 0 auto 135px;
+    display: flex;
+    justify-content: space-between;
+}
