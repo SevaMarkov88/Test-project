@@ -1,5 +1,8 @@
 .place__text {
-    width: calc(50% - 80px);
-    padding-left: 80px;
     background-color: #F2F2F2;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    padding: calc(100vw / 20);
 }

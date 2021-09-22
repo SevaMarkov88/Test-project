@@ -4,3 +4,9 @@
     font-size: calc(8px + 6 * (100vw / 1377));
     color: #000;
 }
+
+@media (max-width: 767px) {
+    .header__complaint {
+        font-size: calc(10px + 6 * (100vw / 1377));
+    }
+}
