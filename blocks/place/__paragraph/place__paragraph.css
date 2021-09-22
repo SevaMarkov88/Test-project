@@ -1,10 +1,5 @@
 .place__paragraph {
-    width: 390px;
-    margin: 0 0 32px;
-    font-size: 0.7vw;
-    line-height: 1vw;
-}
-
-.place__paragraph:last-child {
-    margin-bottom: 0;
+    max-width: 390px;
+    margin: 0;
+    font-size: calc(8px + 6 * (100vw / 1377));
 }

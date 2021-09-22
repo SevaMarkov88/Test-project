@@ -20,7 +20,6 @@
 
 /* main */
 
-
 /* intro */
 
 @import url(../blocks/intro/intro.css);
@@ -35,8 +34,10 @@
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__text/place__text.css);
 @import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__box-image/place__box-image.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
+
 
 /* Peaple */
 
@@ -48,6 +49,27 @@
 @import url(../blocks/peaple/__name/peaple__name.css);
 @import url(../blocks/peaple/__title-name/peaple__title-name.css);
 @import url(../blocks/peaple/__paragraph/peaple__paragraph.css);
+
+/* form-block */
+
+@import url(../blocks/form-block/form-block.css);
+@import url(../blocks/form-block/__image/form-block__image.css);
+@import url(../blocks/form-block/__title/form-block__title.css);
+@import url(../blocks/form-block/__left/form-block__left.css);
+@import url(../blocks/form-block/__right/form-block__right.css);
+
+/* form */
+
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__text/form__text.css);
+@import url(../blocks/form/__textarea/form__textarea.css);
+@import url(../blocks/form/__button/form__button.css);
+
+/* video */
+
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
+@import url(../blocks/video/__title/video__title.css);
 
 /* footer */
 

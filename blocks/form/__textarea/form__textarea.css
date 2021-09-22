@@ -1,0 +1,13 @@
+.form__textarea {
+   width: 364px;
+   height: 95px;
+   padding: 12px 0 0 15px;
+   margin-bottom: 18px;
+   border: none;
+}
+
+@media (max-width: 500px) {
+   .form__textarea{
+      width: 280px;
+   }
+}

@@ -1,0 +1,11 @@
+.form {
+   width: 400px;
+   height: 320px;
+   box-sizing: border-box;
+}
+
+@media (max-width: 500px) {
+   .form {
+      width: 300px;
+   }
+}
