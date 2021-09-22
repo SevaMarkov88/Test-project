@@ -1,0 +1,5 @@
+.place__text {
+    width: calc(50% - 80px);
+    padding-left: 80px;
+    background-color: #F2F2F2;
+}

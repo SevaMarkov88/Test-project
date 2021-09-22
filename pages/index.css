@@ -1,19 +1,44 @@
 /* style reset */
+
 @import url(../vendor/normalize.css);
 
 /* fonts */
+
 @import url(../fonts/fonts.css);
 
-
-
 /* page */
+
 @import url(../blocks/page/page.css);
 
 /* header */
 
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__complaint/header__complaint.css);
+
 /* main */
 
+/* intro */
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__subtitle/intro__subtitle.css);
+@import url(../blocks/intro/__image/intro__image.css);
+
+/* places */
+
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__text/place__text.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+
 /* form-block */
+
 @import url(../blocks/form-block/form-block.css);
 @import url(../blocks/form-block/__image/form-block__image.css);
 @import url(../blocks/form-block/__title/form-block__title.css);
@@ -21,16 +46,20 @@
 @import url(../blocks/form-block/__right/form-block__right.css);
 
 /* form */
+
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__text/form__text.css);
 @import url(../blocks/form/__textarea/form__textarea.css);
 @import url(../blocks/form/__button/form__button.css);
 
 /* video */
+
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__iframe/video__iframe.css);
 @import url(../blocks/video/__title/video__title.css);
 
+
 /* footer */
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__text/footer__text.css);
