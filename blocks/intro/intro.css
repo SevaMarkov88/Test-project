@@ -1,6 +1,15 @@
 .intro {
-    max-width: 1230px;
-    margin: 0 auto 140px;
-    display: flex;
-    justify-content: space-between;
+  max-width: 1230px;
+  margin: 0 auto 140px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+  padding: 0 calc(100vw / 20);
+}
+
+@media (max-width: 900px) {
+  .intro {
+    grid-template-columns: 1fr;
+  }
 }
