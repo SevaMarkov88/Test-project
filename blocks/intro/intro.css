@@ -1,15 +1,18 @@
 .intro {
   max-width: 1230px;
-  margin: 0 auto 140px;
+  margin: 0 auto calc(100vh / 6);
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: minmax(320px, 750px) 384px;
+  grid-template-rows: 384px;
   align-items: center;
-  justify-items: center;
+  justify-items: stretch;
   padding: 0 calc(100vw / 20);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .intro {
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: calc(100vh / 20);
   }
 }

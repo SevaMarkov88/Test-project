@@ -1,9 +1,9 @@
 .footer__text {
    font-weight: 800;
-   font-size: 2vw;
+   font-size: calc(24px + 6 * (100vw / 1377));
    margin-block-start: 0;
    margin-block-end: 0;
    margin-inline-start: 0;
    margin-inline-end: 0;
-   padding: 10em;
+   padding: calc(100vw / 5);
 }
