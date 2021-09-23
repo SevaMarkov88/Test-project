@@ -5,7 +5,7 @@
 }
 
 @media (max-width: 550px) {
-    .place {
+    .place__text {
         width: 100%;
     }
 }
