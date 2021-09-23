@@ -1,7 +1,6 @@
 .peaple__subtitle {
-    margin: 0 0 140px 0;
-    width: 590px;
-    font-size: 2.54vw;
+    margin: 0;
+    max-width: 440px;
+    font-size: calc(16px + 14 * (100vw / 1377));
     font-weight: bold;
-    line-height: 3vw;
 }
