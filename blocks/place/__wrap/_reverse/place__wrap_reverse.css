@@ -1,0 +1,6 @@
+@media (max-width: 550px) {
+    .place__wrap_reverse {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+}

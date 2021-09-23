@@ -1,7 +1,7 @@
 .intro__title {
     margin: 0 0 40px;
-    font-size: calc(8px + 6 * (100vw / 1377));
-    letter-spacing: 0.05em;
+    font-size: calc(4px + 5 * (100vw / 1377));
     color: #FED2B0;
     text-transform: uppercase;
+    text-align: start;
 }

@@ -3,3 +3,9 @@
     min-height: min(calc(100vw/1.6), 575px);
     object-fit: cover;
 }
+
+@media (max-width: 550px) {
+    .place__image {
+        width: 100%;
+    }
+}
