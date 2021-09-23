@@ -1,6 +1,6 @@
 .intro {
   max-width: 1230px;
-  margin: 0 auto calc(100vh / 5);
+  margin: 0 auto calc(100vh / 12);
   display: grid;
   grid-template-columns: minmax(320px, 750px) 384px;
   grid-template-rows: 384px;
