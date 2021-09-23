@@ -1,11 +1,10 @@
 .place__text {
     width: 50%;
     background-color: #F2F2F2;
-    padding: calc(100vw / 20) calc(100vw / 20);
 }
 
 @media (max-width: 550px) {
-    .place {
+    .place__text {
         width: 100%;
     }
 }

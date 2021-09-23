@@ -1,8 +1,10 @@
 .place__title {
-    margin: 0 0 213px;
+    margin: 0 0 200px;
     font-size: calc(18px + 16 * (100vw / 1377));
     font-weight: bold;
     line-height: calc(23px + 16 * (100vw / 1377));
+    padding-top: calc(100vw / 20);
+    padding-left: calc(100vw / 20);
 }
 
 @media (max-width: 1000px) {
