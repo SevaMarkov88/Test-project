@@ -10,7 +10,6 @@
 @media (max-width: 900px) {
     .form-block {
         grid-template-columns: 1fr;
-        width: 100%;
         justify-items: center;
     }
 }
