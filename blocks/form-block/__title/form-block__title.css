@@ -1,6 +1,6 @@
 .form-block__title {
     font-size: calc(24px + 16 * (100vw / 1377));
-    min-width: 320px;
+    min-width: 300px;
     margin: 0 0 84px;
 }
 
