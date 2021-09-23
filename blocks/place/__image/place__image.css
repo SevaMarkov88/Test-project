@@ -1,6 +1,6 @@
 .place__image {
     width: 50%;
-    min-height: min(calc(100vw/1.6), 575px);
+    height: 575px;
     object-fit: cover;
 }
 
