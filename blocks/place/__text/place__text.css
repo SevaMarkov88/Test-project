@@ -1,8 +1,4 @@
 .place__text {
     background-color: #F2F2F2;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
-    padding: calc(100vw / 20);
+    padding: calc(100vw / 20) calc(100vw / 20) 0;
 }

@@ -1,12 +1,9 @@
 .place {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-template-rows: 575px;
+    max-width: 100%;
+    min-height: min(calc(100vh/1.6), 573px);
+    display: flex;
 }
 
 @media (max-width: 1000px) {
-    .place {
-      grid-template-rows: 1fr;
-    }
-  }
-  
+    .place {}
+}

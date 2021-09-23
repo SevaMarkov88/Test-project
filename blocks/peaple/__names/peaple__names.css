@@ -1,6 +1,10 @@
 .peaple__names {
-    max-width: 1220px;
-    margin: 0 auto 135px;
+    max-width: 1230px;
+    margin: 0 80px 135px;
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 1240px) {
+    .peaple__names {}
 }
