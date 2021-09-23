@@ -1,6 +1,8 @@
 .peaple__names {
     max-width: 1220px;
-    margin: 0 auto 135px;
-    display: flex;
-    justify-content: space-between;
+    margin: 0 auto calc(100vh / 5);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr) );
+    gap: 2em;
+    justify-items: center;
 }
