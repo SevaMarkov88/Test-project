@@ -1,4 +1,4 @@
 .peaple {
-    max-width: 100%;
-    margin: 0 auto;
+   padding: 0 calc(100vw / 20);
 }
+
