@@ -1,5 +1,5 @@
 .place {
     max-width: 100%;
-    min-height: min(calc(100vh/1.6), 573px);
+    min-height: 573px;
     display: flex;
 }
