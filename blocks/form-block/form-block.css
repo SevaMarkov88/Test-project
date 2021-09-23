@@ -1,14 +1,16 @@
 .form-block {
-  max-width: 1377px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
+    max-width: 1377px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #F2F2F2;
 }
 
 @media (max-width: 900px) {
-  .form-block {
-    grid-template-columns: 1fr;
-    justify-items: center;
-  }
+    .form-block {
+        grid-template-columns: 1fr;
+        width: 100%;
+        justify-items: center;
+    }
 }
