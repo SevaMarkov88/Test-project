@@ -1,7 +1,6 @@
 .place__title {
-    margin: 0;
-    font-size: calc(18px + 16 * (100vw / 1377));
-    font-weight: bold;
-    line-height: calc(23px + 16 * (100vw / 1377));
-    padding: 2em;
+  margin: 1em auto 3em;
+  font-size: calc(18px + 16 * (100vw / 1377));
+  font-weight: bold;
+  line-height: calc(23px + 16 * (100vw / 1377));
 }

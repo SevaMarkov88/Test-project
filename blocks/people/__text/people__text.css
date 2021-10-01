@@ -1,10 +1,10 @@
 .people__text {
-    margin: calc(100vh / 5.5) 0 calc(100vh / 5.2) calc(100vh / 10);
+    margin: 5em;
 }
 
 @media (max-width: 1000px) {
-    .peaple__text {
-        margin: calc(100vh / 10) auto;
+    .people__text {
+        margin: 5em auto;
     }
   }
   

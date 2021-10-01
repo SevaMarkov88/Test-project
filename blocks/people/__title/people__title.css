@@ -1,6 +1,6 @@
 .people__title {
    margin: 0 0 calc(100vh / 20);
-   font-size: calc(4px + 5 * (100vw / 1377));
+   font-size: calc(10px + 5 * (100vw / 1377));
    color: #FED2B0;
    text-transform: uppercase;
    padding-top: calc(100vh / 65);

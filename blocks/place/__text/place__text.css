@@ -1,3 +1,6 @@
 .place__text {
   background-color: #f2f2f2;
+  display: grid;
+  justify-items: center;
+  align-items: center;
 }

@@ -3,4 +3,6 @@
   background-color: #000;
   padding: 8px;
   float: right;
+  border: none;
+  border-radius: 2px;
 }

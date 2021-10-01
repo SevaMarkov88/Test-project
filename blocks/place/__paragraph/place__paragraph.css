@@ -1,8 +1,8 @@
 .place__paragraph {
-    max-width: 390px;
-    margin: 0 0 calc(100vw / 30);
-    font-size: calc(8px + 6 * (100vw / 1377));
-    line-height: calc(14px + 6 * (100vw / 1377));
-    padding-left: 3em;
+  max-width: 390px;
+  margin: 2em;
+  font-size: calc(10px + 6 * (100vw / 1377));
+  line-height: calc(14px + 6 * (100vw / 1377));
+  align-self: baseline;
+  justify-self:last baseline;
 }
-
