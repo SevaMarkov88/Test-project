@@ -1,6 +1,0 @@
-@media (max-width: 550px) {
-    .place__wrap {
-        display: flex;
-        flex-wrap: wrap;
-    }
-}

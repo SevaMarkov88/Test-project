@@ -35,22 +35,21 @@
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__text/place__text.css);
 @import url(../blocks/place/__title/place__title.css);
-@import url(../blocks/place/__box-image/place__box-image.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
-@import url(../blocks/place/__wrap/place__wrap.css);
-@import url(../blocks/place/__wrap/_reverse/place__wrap_reverse.css);
 
-/* Peaple */
+/* people */
 
-@import url(../blocks/peaple/peaple.css);
-@import url(../blocks/peaple/__text/peaple__text.css);
-@import url(../blocks/peaple/__title/peaple__title.css);
-@import url(../blocks/peaple/__subtitle/peaple__subtitle.css);
-@import url(../blocks/peaple/__names/peaple__names.css);
-@import url(../blocks/peaple/__name/peaple__name.css);
-@import url(../blocks/peaple/__title-name/peaple__title-name.css);
-@import url(../blocks/peaple/__paragraph/peaple__paragraph.css);
+@import url(../blocks/people/people.css);
+@import url(../blocks/people/__title/people__title.css);
+@import url(../blocks/people/__text/people__text.css);
+@import url(../blocks/people/__subtitle/people__subtitle.css);
+@import url(../blocks/people/__names/people__names.css);
+
+/* name */
+@import url(../blocks/name/name.css);
+@import url(../blocks/name/__title/name__title.css);
+@import url(../blocks/name/__paragraph/);
 
 /* form-block */
 

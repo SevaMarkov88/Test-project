@@ -3,5 +3,6 @@
     margin: 0 0 calc(100vw / 30);
     font-size: calc(8px + 6 * (100vw / 1377));
     line-height: calc(14px + 6 * (100vw / 1377));
-    padding-left: calc(100vw / 20);
+    padding-left: 3em;
 }
+
