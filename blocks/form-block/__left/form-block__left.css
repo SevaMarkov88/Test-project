@@ -1,5 +1,4 @@
 .form-block__left {
     display: grid;
     max-height: 400px;
-    padding-left: calc(100vw / 20);
 }

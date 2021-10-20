@@ -1,5 +1,7 @@
 .video {
-   max-width: 1377px;
-   margin: -4px auto;
-   position: relative;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+  margin: -4px  auto;
 }

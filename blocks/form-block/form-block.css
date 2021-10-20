@@ -1,15 +1,15 @@
 .form-block {
-    max-width: 1377px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    background-color: #F2F2F2;
+  max-width: 1377px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(320px, 1fr));
+  align-items: center;
+  justify-items: center;
+  background-color: #F2F2F2;
 }
 
 @media (max-width: 900px) {
-    .form-block {
-        grid-template-columns: 1fr;
-        justify-items: center;
-    }
+  .form-block {
+    grid-template-columns: minmax(320px, 1fr);
+  }
 }
