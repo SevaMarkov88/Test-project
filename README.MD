@@ -43,5 +43,5 @@
 Клонировать репозиторий:
 
 `
-git clone https://github.com/SevaMarkov88/Test-project
+git clone https://github.com/SevaMarkov88/Test-project.git
 `
